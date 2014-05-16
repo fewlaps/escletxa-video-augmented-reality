@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <VideoView
+        android:id="@+id/surface_1"
+        android:layout_width="@dimen/video"
+        android:layout_height="@dimen/video" >
+    </VideoView>
+    <View
+        android:visibility="gone"
+        android:background="@android:color/black"
+        android:id="@+id/surface_1_top"
+        android:layout_width="@dimen/video"
+        android:layout_height="@dimen/video" >
+    </View>
+
+    <VideoView
+        android:id="@+id/surface_2"
+        android:layout_width="@dimen/video"
+        android:layout_height="@dimen/video" >
+    </VideoView>
+    <View
+        android:visibility="gone"
+        android:background="@android:color/black"
+        android:id="@+id/surface_2_top"
+        android:layout_width="@dimen/video"
+        android:layout_height="@dimen/video" >
+    </View>
+
+    <VideoView
+        android:id="@+id/surface_3"
+        android:layout_width="@dimen/video"
+        android:layout_height="@dimen/video" >
+    </VideoView>
+    <View
+        android:visibility="gone"
+        android:background="@android:color/black"
+        android:id="@+id/surface_3_top"
+        android:layout_width="@dimen/video"
+        android:layout_height="@dimen/video" >
+    </View>
+
+    <VideoView
+        android:id="@+id/surface_4"
+        android:layout_width="@dimen/video"
+        android:layout_height="@dimen/video" >
+    </VideoView>
+    <View
+        android:visibility="gone"
+        android:background="@android:color/black"
+        android:id="@+id/surface_4_top"
+        android:layout_width="@dimen/video"
+        android:layout_height="@dimen/video" >
+    </View>
+    
+    <com.appunta.android.ui.EyeView
+        android:id="@+id/augmentedView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</RelativeLayout>
