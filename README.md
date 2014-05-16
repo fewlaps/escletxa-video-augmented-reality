@@ -9,7 +9,8 @@ This project has been used at GREC, one of the most important cultural events of
 Enjoy Escletxa!
 
 
-
+![The QR scanner screen](http://fewlaps.com/escletxa/screen1.png)
+![The Videostream Augmented Reality screen](http://fewlaps.com/escletxa/screen2.png)
  
 
 Technologies used by the app:
